@@ -19343,6 +19343,10 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+$(document).ready(function () {
+  $('#login-btn').on('click', function () {});
+});
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

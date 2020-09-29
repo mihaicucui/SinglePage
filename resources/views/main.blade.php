@@ -12,6 +12,8 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+    <script src="js/app.js"></script>
+
 </head>
 <body>
 <!-- As a heading -->
@@ -35,9 +37,13 @@
                 <input type="checkbox" class="form-check-input" id="rememberCheck">
                 <label class="form-check-label" for="rememberCheck">Remember me</label>
             </div>
-            <button type="submit" class="btn btn-primary">Login</button>
+            <button id="login-btn" type="button" class="btn btn-primary">Login</button>
         </form>
     </div>
+</div>
+
+<div id="client-div">
+
 </div>
 
 </body>
